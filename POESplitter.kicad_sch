@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1d8afe81-3ee7-40d8-9af0-492100b35b6b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 63.5 25.4)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e6f3ccd-61a1-4b9b-85c4-e96aca6c5e8b")
+		(property "Sheetname" "Connectors"
+			(at 63.5 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 63.5 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POESplitter"
+				(path "/1d8afe81-3ee7-40d8-9af0-492100b35b6b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 25.4)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c340b1b4-084c-4cd8-9efe-7c0f1118747d")
+		(property "Sheetname" "Power"
+			(at 101.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 101.6 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "POESplitter"
+				(path "/1d8afe81-3ee7-40d8-9af0-492100b35b6b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
